@@ -125,7 +125,18 @@ h3{
     width: 408px;
     float: left;
     height: 100%;
+
+    /*
+        W tym miejscu left przesuwa obrazek ALE TYLKO TEN OBRAZEK a nie wszystkie, dlatego horizon "wchodzi" pod ten pierwszy, bo nie jest te przesuwany.
+
+        Aby zrobić to dobrze nalezy wszystkie dolne zdjecia "opakować" w diva i dopiero jego przesuwać w lewo lub prawo:
+    */
     left: 10%;
+    /*
+    Usuń ten left i zobacz efekt, wszystko bedzie wygladać dobrze tylko bedzie przylegać do lewej krawędzi ale jak się tego efektu pozybyć opisałem wyzej.
+    */
+
+
     background-color:green;
    
 }
