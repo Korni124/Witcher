@@ -120,6 +120,10 @@ h3{
     line-height: 100px;
     text-align: center;
 }
+.images-holder{
+    position: relative;
+    left:10%;
+}
 .tombraider{
     position: relative;
     width: 408px;
@@ -131,7 +135,7 @@ h3{
 
         Aby zrobić to dobrze nalezy wszystkie dolne zdjecia "opakować" w diva i dopiero jego przesuwać w lewo lub prawo:
     */
-    left: 10%;
+    
     /*
     Usuń ten left i zobacz efekt, wszystko bedzie wygladać dobrze tylko bedzie przylegać do lewej krawędzi ale jak się tego efektu pozybyć opisałem wyzej.
     */
