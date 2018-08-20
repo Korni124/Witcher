@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+
+    overflow-x: hidden;
+}
+#container{
+    background-image: url(witcher.jpg);
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.content {
+    background-color: rgb(21, 21, 22);
+    height:400px;
+    text-align: center;
+    color:white;
+    padding-top: 100px;
+    position: relative;
+    top:70vh;
+   
+
+}
+.ten-pasek-po-srodku{
+    position: absolute;
+    left: 10%;
+    top: -50px;
+    height:100px;
+    width: 100%;
+    background-color: rgba(233, 233, 71, 0.884);
+}
+.games{
+    
+    float: left;
+    width: 220px;
+    
+
+}
+.console{
+    height: 30px;
+    width: 30px;
+    float: left;
+    position: relative;
+    top:-5px;
+}
+.logo{
+    margin: 0 10px;
+    float: left;
+}
+.menu{
+    
+    float:left;
+    text-align: center;
+    width: 50%;   
+    word-spacing: 22px;
+
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
+.szukaj {
+   
+    float: right;
+    width:25%;
+    text-align: right;
+    word-spacing: 22px;
+    height: 30px;
+   
+}
+.opis{
+    padding: 15px;
+    width: 37.5%;
+    height: 70px;
+    float: left;
+    text-align: left;
+    
+
+}
+.opcje{
+    background-color:#e6e3e0;
+    color: black;
+    width: 60%;
+    float: right;
+    height: 100%;
+}
+.nav{
+    padding-top: 10px;
+    margin: 0 10px;
+}
+.obrazki{
+    width: 25px;
+    height: 25px;
+}
+h3{
+    margin: 0;
+    width: 160px;
+   
+}
+.more{
+    float: right;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    bottom: 20px;
+}
+.napisy{
+    line-height: 70px;
+    width: 160px;
+}
+.a{
+   
+    float: left;
+    width: 29%;
+    height: 100%;
+    border-right: 2px dotted rgb(78, 71, 71);
+    line-height: 100px;
+    text-align: center;
+}
+.tombraider{
+    position: relative;
+    width: 408px;
+    float: left;
+    height: 100%;
+    left: 10%;
+    background-color:green;
+   
+}
+.img-tombraider{
+    width: 100%;
+    height: 85%;
+}
+h4{
+    margin-bottom: 0;
+}
+.horizon{
+    background-color: blueviolet;
+    float: left;
+    margin:0 0 20px 20px;
+    width: 200px;
+   
+    
+}
+.img-horizon{
+    width: 100%;
+    height: 100px;
+}
+.uncharted{
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin:0 0 20px 20px;
+}
