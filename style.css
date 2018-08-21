@@ -16,7 +16,7 @@ body {
 }
 .content {
     background-color: rgb(21, 21, 22);
-    height:400px;
+    height:600px;
     text-align: center;
     color:white;
     padding-top: 100px;
@@ -122,51 +122,26 @@ h3{
 }
 .images-holder{
     position: relative;
-    left:10%;
-}
-.tombraider{
-    position: relative;
-    width: 408px;
-    float: left;
+    margin:0 10% ;
+    background-color: pink;
     height: 100%;
 
-    /*
-        W tym miejscu left przesuwa obrazek ALE TYLKO TEN OBRAZEK a nie wszystkie, dlatego horizon "wchodzi" pod ten pierwszy, bo nie jest te przesuwany.
-
-        Aby zrobić to dobrze nalezy wszystkie dolne zdjecia "opakować" w diva i dopiero jego przesuwać w lewo lub prawo:
-    */
-    
-    /*
-    Usuń ten left i zobacz efekt, wszystko bedzie wygladać dobrze tylko bedzie przylegać do lewej krawędzi ale jak się tego efektu pozybyć opisałem wyzej.
-    */
-
-
-    background-color:green;
-   
 }
 .img-tombraider{
-    width: 100%;
-    height: 85%;
-}
-h4{
-    margin-bottom: 0;
-}
-.horizon{
-    background-color: blueviolet;
+    height: 95%;
+    position: relative;
+    width: 50%;
     float: left;
-    margin:0 0 20px 20px;
-    width: 200px;
-   
     
 }
-.img-horizon{
-    width: 100%;
-    height: 100px;
-}
-.uncharted{
-    background-color:blue;
-    width: 200px;
-    height: 200px;
+.img{
     float: left;
-    margin:0 0 20px 20px;
+    margin:0 0 0 2%;
+    width: 23%;
+    height: 45%;
 }
+.top{
+    margin-bottom: 5%;
+}
+
+
